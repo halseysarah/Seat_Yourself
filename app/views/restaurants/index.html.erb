@@ -1,0 +1,10 @@
+<h1>Restaurants Index</h1>
+
+
+<% @restaurants.each do |restaurant| %>	
+  <p>Name: <%= restaurant[:name] %>
+  <p>Address: <%= restaurant[:address] %>
+  <p>Phone Number: <%= restaurant[:phone_num] %>
+  <p>Capacity: <%= restaurant[:capacity] %>
+  <p>Summary: <%= restaurant[:summary] %>
+ <% end %>

@@ -1,0 +1,9 @@
+<h1>Restaurant Profile</h1>
+
+  <p>Name: <%= @restaurant[:name] %>
+  <p>Address: <%= @restaurant[:address] %>
+  <p>Phone Number: <%= @restaurant[:phone_num] %>
+  <p>Capacity: <%= @restaurant[:capacity] %>
+  <p>Summary: <%= @restaurant[:summary] %>
+<br>
+<%= link_to 'Edit', edit_restaurant_path %>
